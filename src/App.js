@@ -21,11 +21,14 @@ class App extends Component {
   }
 
   render() {
+    const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
+
+    // I removed View since I dont use it but put <LoginForm directly into 
+    // Provider tag.  Also removed it and Text from the import above.
+    // I also moved call to createStore from the Provider tag to above const.
     return (
-      <Provider store={createStore(reducers, {}, applyMiddleware(ReduxThunk))}>
-        <View>
-          <LoginForm />
-        </View>
+      <Provider store={store}>
+        <LoginForm />
       </Provider>
     );
   }
