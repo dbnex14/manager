@@ -10,6 +10,7 @@
     "firebase": "^4.8.1",
     "react": "16.0.0",
     "react-native": "0.51.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
@@ -19,7 +20,6 @@
     "babel-preset-react-native": "4.0.0",
     "eslint-rallycoding": "^1.2.0",
     "jest": "22.0.4",
-    "react-native-router-flux": "^3.43.0",
     "react-test-renderer": "16.0.0"
   },
   "jest": {
