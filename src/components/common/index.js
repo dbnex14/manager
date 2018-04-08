@@ -11,6 +11,7 @@ export * from './CardSection';
 export * from './Header';
 export * from './Input';
 export * from './Spinner';
+export * from './Confirm';
 
 // One side thing, I did not have it but instructor had lint error
 // "No named exports found in module './Button'".  The downside of
